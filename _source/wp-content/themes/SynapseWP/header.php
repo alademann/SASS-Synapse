@@ -112,7 +112,10 @@ jQuery('.images').cycle({
          
 <?php } ?>
 
-<?php  include("includes/colorscheme.php"); ?>
+<?php  
+	$colorschemeInclude = TEMPLATEPATH . "/includes/colorscheme.php";
+	include($colorschemeInclude); 
+?>
 
 <!-- END head -->
 </head>

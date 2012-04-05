@@ -18,19 +18,30 @@
 
  ?>
 
-<?php  include("includes/sliders/$script1"); ?>
+ 
+<?php  
+	$sliderScriptInclude = TEMPLATEPATH . "/includes/sliders/$script1";
+	include($sliderScriptInclude); 
+
+?>
 
 <?php } ?>
 
 <?php if (get_option_tree('cta_onoff') == 'Yes') { ?>
 
-<?php  include("includes/cta.php"); ?>
+<?php  
+	$ctaInclude = TEMPLATEPATH . "/includes/cta.php";
+	include($ctaInclude); 
+?>
 
 <?php } ?>
 
 <?php if (get_option_tree('portfolio_onoff') == 'Yes') { ?>
 
-<?php  include("includes/portfolio.php"); ?>
+<?php	
+	$ctaInclude = TEMPLATEPATH . "/includes/portfolio.php";
+	include($ctaInclude); 
+?>
 
 <?php } ?>
 

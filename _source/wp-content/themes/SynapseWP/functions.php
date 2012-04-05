@@ -4,7 +4,8 @@
    // Ready for theme localisation
 load_theme_textdomain ('localization');
 
-include("includes/metaboxes/metaboxes.php");
+$metaboxes = TEMPLATEPATH . '/includes/metaboxes/metaboxes.php';
+include($metaboxes);
 require TEMPLATEPATH . '/option-tree/index.php'; 
 require_once TEMPLATEPATH . '/includes/comment-list.php';
 
@@ -179,8 +180,10 @@ function kriesi_pagination($pages = '', $range = 2)
      }
 }
 
-include('includes/functions/portfolio/portfolio.php');
-include('includes/functions/testimonials/testimonials.php');
+$portfolioInclude = TEMPLATEPATH . '/includes/functions/portfolio/portfolio.php';
+$testimonialsInclude = TEMPLATEPATH . '/includes/functions/testimonials/testimonials.php';
+include($portfolioInclude);
+include($testimonialsInclude);
 
 
 $metaFields = array(
@@ -361,13 +364,13 @@ add_action('wp_enqueue_scripts', 'synapseScripts');
 
 
 
-include("includes/widget-twitter.php");
-include("includes/widget-sidebar-twitter.php");
-include("includes/widget-video.php");
-include("includes/widget-flickr.php");
-include("includes/widget-testimonials.php");
-include("includes/widget-testimonials-sidebar.php");
-include("includes/widget-recentposts.php");
+include(TEMPLATEPATH . "/includes/widget-twitter.php");
+include(TEMPLATEPATH . "/includes/widget-sidebar-twitter.php");
+include(TEMPLATEPATH . "/includes/widget-video.php");
+include(TEMPLATEPATH . "/includes/widget-flickr.php");
+include(TEMPLATEPATH . "/includes/widget-testimonials.php");
+include(TEMPLATEPATH . "/includes/widget-testimonials-sidebar.php");
+include(TEMPLATEPATH . "/includes/widget-recentposts.php");
 
 function people_init() {
 	// create a new taxonomy
