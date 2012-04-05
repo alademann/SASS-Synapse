@@ -33,9 +33,11 @@ $custom_bg = explode(",",get_option_tree('custom_bg'));
 
 <style type="text/css">
     
+		/* stupid admin bar... go away! */
+		html { margin-top: 0 !important; }
     body {
-     background: url(<?php bloginfo('template_directory'); ?>/img/patterns/<?php echo get_option_tree('choose_pattern') ?>.png) repeat #fff;
-}
+				 background: url(<?php bloginfo('template_directory'); ?>/img/patterns/<?php echo get_option_tree('choose_pattern') ?>.png) repeat #fff;
+		}
 
 </style>
 
