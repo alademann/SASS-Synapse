@@ -3,6 +3,10 @@ Documentation/
 Licensing/
 #ignore sass cache
 _source/wp-content/themes/SynapseWP/.sass-cache/
+#ignore visual studio solution files
+*.sln
+*.suo
+*.mswwsettings
 #ignore thumbnails created by windows
 Thumbs.db
 #Ignore files build by Visual Studio
