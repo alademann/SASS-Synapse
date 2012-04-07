@@ -1,3 +1,10 @@
+/*----------------------------------------------
+
+	PARTIAL:	_functions.scss
+	PARENT:		_bootstrap.scss
+	
+----------------------------------------------*/
+
 // Convert px to em
 @function pxtoem($target, $container: $baseFontSizeInt){
   @return ($target/$container)+0em;

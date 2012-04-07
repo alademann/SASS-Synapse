@@ -1,24 +1,10 @@
-/*! 
- * Bootstrap v2.0.1
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
- 
-// NOTE: If you fork from alademann's branch of this bootstrap, many of the 
-// alterations rely on some mixins from these compass includes.
-// I have them commented out here because I include them in my screen.scss file - and bootstrap is
-// a partial that i bring in.  if you are using boostrap as a primary source css file, you must include these here.
-//    @import "compass";
-//    @import "compass/support";
-//    @import "compass/css3";
-//    @import "compass/typography";
-//    @import "compass/utilities";
-//    @import "compass/layout";
-//    @import "compass/reset";
+/*----------------------------------------------
+
+	PARTIAL:	_bootstrap.scss
+	PARENT:		style.scss
+	
+----------------------------------------------*/
+
 
 /*------------------------ WEBFONTS & FONT UTILITIES ------------------------*/
 // contains the mixins and vars necessary to load whatever is requested below

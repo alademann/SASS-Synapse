@@ -1,6 +1,11 @@
-// Forms.less 
-// Base styles for various input types, form layouts, and states
-// -------------------------------------------------------------
+/*----------------------------------------------
+
+  PARTIAL:  _forms.scss
+  PARENT:   _bootstrap.scss
+  Base styles for various input types, form layouts, and states
+  
+----------------------------------------------*/
+
 $controls-width: 160px;
 $default-input-width: $controls-width + 50;
 $label-margin: 5px;

@@ -1,6 +1,11 @@
-// VARIABLES 
-// Variables to customize the look and feel of Bootstrap
-// -----------------------------------------------------
+/*----------------------------------------------
+
+	PARTIAL:	_variables.scss
+	PARENT:		_bootstrap.scss
+
+	Variables to customize the look and feel of Bootstrap
+
+----------------------------------------------*/
 
 $warn_if_compass_not_default: false; // set this to true if you want to be warned when compass is not default
 // if you are importing compass stuff... mark here what you've imported, otherwise - mark it false

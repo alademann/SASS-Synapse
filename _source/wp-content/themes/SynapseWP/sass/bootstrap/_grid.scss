@@ -1,5 +1,9 @@
-// GRID SYSTEM 
-// -----------
+/*----------------------------------------------
+
+	PARTIAL:	_grid.scss
+	PARENT:		_bootstrap.scss
+	
+----------------------------------------------*/
 
 // Fixed (940px)
 @include gridSystem-generate($gridColumns, $gridColumnWidth, $gridGutterWidth);

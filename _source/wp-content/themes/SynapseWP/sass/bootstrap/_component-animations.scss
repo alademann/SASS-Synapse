@@ -1,5 +1,9 @@
-// COMPONENT ANIMATIONS 
-// --------------------
+/*----------------------------------------------
+
+  PARTIAL:  _component-animations.scss
+  PARENT:   _bootstrap.scss
+  
+----------------------------------------------*/
 
 .fade {
   @include tb_transition(opacity .15s linear);
