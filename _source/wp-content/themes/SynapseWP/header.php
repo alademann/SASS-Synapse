@@ -17,18 +17,7 @@
 <title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
 <!-- Stylesheets -->
-
-
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/framework/reset.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/framework/prettify.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/framework/prettyPhoto.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/framework/normalize.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/superfish.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/buttons/btn.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-
-
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 
 <!-- RSS, Atom & Pingbacks -->
@@ -113,7 +102,9 @@ jQuery('.images').cycle({
 <?php } ?>
 
 <?php  
-	$colorschemeInclude = TEMPLATEPATH . "/includes/colorscheme.php";
+    // TODO: make this change a body class or something - not load an entirely separate 
+    // color specfic stylesheet....
+	$colorschemeInclude = TEMPLATEPATH . "/includes/colorscheme.php"; 
 	include($colorschemeInclude); 
 ?>
 

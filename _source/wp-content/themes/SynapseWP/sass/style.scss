@@ -3,11 +3,18 @@
 /*!--- 
   compass helpers
 ---*/
-//@import "global-compass";
+@import "global-compass";
 /*!--- 
   bootstrap
 ---*/
-//@import "bootstrap/bootstrap";
+@import "bootstrap/bootstrap";
+/*!--- 
+  primary theme framework styles (SynapseWP)
+---*/
+@import "theme-synapse_fw_prettify";
+@import "theme-synapse_fw_prettyphoto";
+@import "theme-synapse_fw_btn";
+@import "theme-synapse_fw_superfish";
 /*!--- 
   primary theme styles (SynapseWP)
 ---*/
